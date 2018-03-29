@@ -10,7 +10,6 @@ public class Rectangle {
 	
 	double hitungLuas() {
 		double luas = panjang*lebar;
-		System.out.println("Luas Persegi = "+luas);
 		return luas;
 	}
 }
