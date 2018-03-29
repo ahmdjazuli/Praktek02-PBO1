@@ -5,6 +5,13 @@ public class Rectangle {
 		panjang = 7;
 		lebar   = 5;
 	}
+	
+	public Rectangle(double panjang, double lebar) {
+		this.panjang = panjang;
+		this.lebar = lebar;
+	}
+
+
 
 	void cetakInfo() {
 		System.out.println("===============================");

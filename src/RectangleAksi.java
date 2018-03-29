@@ -11,7 +11,9 @@ public class RectangleAksi {
 		persegi.cetakLuas(); // pake void
 		
 		Rectangle persegi2 = new Rectangle();
-		
 		persegi2.cetakInfo();
+		
+		Rectangle persegi3 = new Rectangle(12,10);
+		persegi3.cetakInfo();
 	}
 }
