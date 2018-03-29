@@ -6,5 +6,7 @@ public class RectangleAksi {
 		persegi.lebar   = 5;
 		
 		persegi.cetakInfo();
+		
+		persegi.hitungLuas();
 	}
 }

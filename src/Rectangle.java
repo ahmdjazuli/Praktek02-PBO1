@@ -7,4 +7,10 @@ public class Rectangle {
 		System.out.println("Lebar   = "+lebar);
 		System.out.println("===============================");
 	}
+	
+	double hitungLuas() {
+		double luas = panjang*lebar;
+		System.out.println("Luas Persegi = "+luas);
+		return luas;
+	}
 }
