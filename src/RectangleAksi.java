@@ -7,6 +7,7 @@ public class RectangleAksi {
 		
 		persegi.cetakInfo();
 	
-		System.out.print("Luas Rectangle = "+persegi.hitungLuas());
+		System.out.println("[1] Luas Rectangle = "+persegi.hitungLuas()); // nilai balik
+		persegi.cetakLuas(); // pake void
 	}
 }

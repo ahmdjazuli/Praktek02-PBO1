@@ -12,4 +12,9 @@ public class Rectangle {
 		double luas = panjang*lebar;
 		return luas;
 	}
+	
+	void cetakLuas() {
+		double luas = panjang*lebar;
+		System.out.println("[2] Luas Rectangle = "+luas);
+	}
 }
