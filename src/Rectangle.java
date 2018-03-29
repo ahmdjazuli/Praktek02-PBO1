@@ -1,6 +1,11 @@
 public class Rectangle {
 	double panjang,lebar;
-	
+		
+	public Rectangle() {
+		panjang = 7;
+		lebar   = 5;
+	}
+
 	void cetakInfo() {
 		System.out.println("===============================");
 		System.out.println("Panjang = "+panjang);

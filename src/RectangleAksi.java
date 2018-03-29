@@ -9,5 +9,9 @@ public class RectangleAksi {
 	
 		System.out.println("[1] Luas Rectangle = "+persegi.hitungLuas()); // nilai balik
 		persegi.cetakLuas(); // pake void
+		
+		Rectangle persegi2 = new Rectangle();
+		
+		persegi2.cetakInfo();
 	}
 }
