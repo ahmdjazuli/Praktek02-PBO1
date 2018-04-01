@@ -7,13 +7,13 @@ public class RectangleAksi {
 		
 		persegi.cetakInfo();
 	
-		System.out.println("[1] Luas Rectangle = "+persegi.hitungLuas()); // nilai balik
-		persegi.cetakLuas(); // pake void
+		System.out.println("[1] Luas Persegi1 = "+persegi.hitungLuas()); // Method pake Return
 		
 		Rectangle persegi2 = new Rectangle();
-		persegi2.cetakInfo();
+		persegi2.cetakInfo(); // Konstruktor tanpa Parameter
 		
-		Rectangle persegi3 = new Rectangle(12,10);
+		Rectangle persegi3 = new Rectangle(12,10); // Konstruktor pake Parameter
 		persegi3.cetakInfo();
+		persegi3.cetakLuas(); // pake method tanpa return
 	}
 }
