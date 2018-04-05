@@ -20,7 +20,7 @@ public class Pegawai {
 		System.out.println("Nama Pegawai \t= "+nama);
 		System.out.println("Alamat \t \t= "+alamat);
 		System.out.println("Email \t \t= "+email);
-		System.out.println("============== [method tanpa nilai balik] =================");
+		System.out.println("============================================================");
 	}
 	
 	// [2] Method dengan nilai Balik(return)
@@ -43,4 +43,4 @@ public class Pegawai {
 		gajiLembur = waktuLembur * gajiPerJam;
 		return gajiLembur;
 	}
-} //end main
+} //end class

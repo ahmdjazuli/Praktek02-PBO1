@@ -13,8 +13,10 @@ public class PegawaiHitungGaji {
 		
 		// [2] Method dengan nilai Balik(return)
 		System.out.println("\n==============[Method dengan nilai Balik]==================");
-		System.out.println("Gaji Pegawai \t = Rp "+pg1.hitungGaji());
-		System.out.println("Lembur Pegawai \t = Rp "+pg1.hitungLembur());
+		System.out.println("Gaji Awal \t\t = Rp "+20000);
+		System.out.println("Waktu Lembur \t\t = Rp "+2+" Jam");
+		System.out.println("Gaji Lembur \t\t = Rp "+pg1.hitungLembur());
+		System.out.println("Total Gaji Pegawai \t = Rp "+pg1.hitungGaji());
 		System.out.println("=============================================================");
 		
 		// [3] Konstruktor tanpa Parameter	
@@ -22,12 +24,12 @@ public class PegawaiHitungGaji {
 		System.out.println("\n==============[Konstruktor tanpa Parameter]==================");
 		System.out.println(pg2.nama);
 		System.out.println(pg2.alamat);
-		System.out.println("==============[Konstruktor tanpa Parameter]==================");
+		System.out.println("===============================================================");
 		
 		// [3] Konstruktor tanpa Parameter	
 		Pegawai pg3 = new Pegawai("julikoding@gmail.com");
 		System.out.println("\n==============[Konstruktor dengan Parameter]==================");
 		System.out.println(pg3.email);
-		System.out.println("==============[Konstruktor dengan Parameter]==================");
+		System.out.println("================================================================");
 	}
 }
